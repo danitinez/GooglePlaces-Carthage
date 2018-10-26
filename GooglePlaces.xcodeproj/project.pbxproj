@@ -27,7 +27,7 @@
 		6836CF3B218375E800A851FB /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF28218375E800A851FB /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6836CF3C218375E800A851FB /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF29218375E800A851FB /* GMSAutocompleteBoundsMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6836CF412183765200A851FB /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6836CF402183765100A851FB /* GooglePlaces.bundle */; };
-		6836CF432183765F00A851FB /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = 6836CF422183765F00A851FB /* GooglePlaces */; };
+		6836CF5A21837DB700A851FB /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = 6836CF5921837DB600A851FB /* GooglePlaces */; };
 		B9EE045E1D9D8E20003E7610 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE045D1D9D8E20003E7610 /* GoogleMapsBase.framework */; };
 		B9EE04601D9D8E2E003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE045F1D9D8E2E003E7610 /* Foundation.framework */; };
 		B9EE04621D9D8E39003E7610 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04611D9D8E39003E7610 /* CoreLocation.framework */; };
@@ -57,7 +57,7 @@
 		6836CF28218375E800A851FB /* GooglePlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlaces.h; sourceTree = "<group>"; };
 		6836CF29218375E800A851FB /* GMSAutocompleteBoundsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteBoundsMode.h; sourceTree = "<group>"; };
 		6836CF402183765100A851FB /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
-		6836CF422183765F00A851FB /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = GooglePlaces; path = "../../../../../Downloads/GooglePlaces-2.7.0/Frameworks/GooglePlaces.framework/GooglePlaces"; sourceTree = "<group>"; };
+		6836CF5921837DB600A851FB /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlaces; sourceTree = "<group>"; };
 		B9EE042D1D9D8D2E003E7610 /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE04311D9D8D2E003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9EE045D1D9D8E20003E7610 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			files = (
 				B9EE04681D9D8E6B003E7610 /* QuartzCore.framework in Frameworks */,
 				B9EE04661D9D8E4D003E7610 /* UIKit.framework in Frameworks */,
-				6836CF432183765F00A851FB /* GooglePlaces in Frameworks */,
+				6836CF5A21837DB700A851FB /* GooglePlaces in Frameworks */,
 				B9EE04641D9D8E47003E7610 /* CoreGraphics.framework in Frameworks */,
 				B9EE04601D9D8E2E003E7610 /* Foundation.framework in Frameworks */,
 				B9EE04621D9D8E39003E7610 /* CoreLocation.framework in Frameworks */,
@@ -125,9 +125,9 @@
 				6836CF22218375E700A851FB /* GMSPlaceTypes.h */,
 				6836CF23218375E700A851FB /* GMSUserAddedPlace.h */,
 				6836CF28218375E800A851FB /* GooglePlaces.h */,
+				6836CF5921837DB600A851FB /* GooglePlaces */,
 				6836CF402183765100A851FB /* GooglePlaces.bundle */,
 				B9EE04311D9D8D2E003E7610 /* Info.plist */,
-				6836CF422183765F00A851FB /* GooglePlaces */,
 			);
 			path = GooglePlaces;
 			sourceTree = "<group>";
