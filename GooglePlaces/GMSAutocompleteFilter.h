@@ -8,13 +8,14 @@
 //  Service: https://developers.google.com/maps/terms
 //
 
-#if __has_feature(modules)
-@import GoogleMapsBase;
-#else
-#import <GoogleMapsBase/GoogleMapsBase.h>
-#endif
+#import <Foundation/Foundation.h>
 
-GMS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
+
+/**
+ * \defgroup PlacesAutocompleteTypeFilter GMSPlacesAutocompleteTypeFilter
+ * @{
+ */
 
 /**
  * The type filters that may be applied to an autocomplete request to restrict results to different
@@ -55,6 +56,8 @@ typedef NS_ENUM(NSInteger, GMSPlacesAutocompleteTypeFilter) {
   kGMSPlacesAutocompleteTypeFilterCity,
 };
 
+/**@}*/
+
 /**
  * This class represents a set of restrictions that may be applied to autocomplete requests. This
  * allows customization of autocomplete suggestions to only those places that are of interest.
@@ -71,8 +74,8 @@ typedef NS_ENUM(NSInteger, GMSPlacesAutocompleteTypeFilter) {
  * The country to restrict results to. This should be a ISO 3166-1 Alpha-2 country code (case
  * insensitive). If nil, no country filtering will take place.
  */
-@property(nonatomic, copy) NSString *GMS_NULLABLE_PTR country;
+@property(nonatomic, copy, nullable) NSString *country;
 
 @end
 
-GMS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;
