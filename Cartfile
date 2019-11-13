@@ -1,1 +1,2 @@
-github "danitinez/GoogleMaps-Carthage" ~> 2.7.0
+#github "danitinez/GoogleMaps-Carthage" ~> 3.6.0
+git "file:///Users/danitinez/dev/ios/GoogleMaps-Carthage" ~> 3.6.0

@@ -28,7 +28,11 @@
 		6836CF3C218375E800A851FB /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6836CF29218375E800A851FB /* GMSAutocompleteBoundsMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6836CF412183765200A851FB /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6836CF402183765100A851FB /* GooglePlaces.bundle */; };
 		6836CF5A21837DB700A851FB /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = 6836CF5921837DB600A851FB /* GooglePlaces */; };
-		B9EE045E1D9D8E20003E7610 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE045D1D9D8E20003E7610 /* GoogleMapsBase.framework */; };
+		686AEC30237C74D100DAEA13 /* GMSOpeningHours.h in Headers */ = {isa = PBXBuildFile; fileRef = 686AEC2C237C74D100DAEA13 /* GMSOpeningHours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686AEC31237C74D100DAEA13 /* GMSAutocompleteSessionToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 686AEC2D237C74D100DAEA13 /* GMSAutocompleteSessionToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686AEC32237C74D100DAEA13 /* GMSPlusCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 686AEC2E237C74D100DAEA13 /* GMSPlusCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686AEC33237C74D100DAEA13 /* GMSPlaceFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 686AEC2F237C74D100DAEA13 /* GMSPlaceFieldMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686AEC35237C750600DAEA13 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686AEC34237C750600DAEA13 /* GoogleMapsBase.framework */; };
 		B9EE04601D9D8E2E003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE045F1D9D8E2E003E7610 /* Foundation.framework */; };
 		B9EE04621D9D8E39003E7610 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04611D9D8E39003E7610 /* CoreLocation.framework */; };
 		B9EE04641D9D8E47003E7610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04631D9D8E47003E7610 /* CoreGraphics.framework */; };
@@ -58,9 +62,13 @@
 		6836CF29218375E800A851FB /* GMSAutocompleteBoundsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteBoundsMode.h; sourceTree = "<group>"; };
 		6836CF402183765100A851FB /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
 		6836CF5921837DB600A851FB /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GooglePlaces; sourceTree = "<group>"; };
+		686AEC2C237C74D100DAEA13 /* GMSOpeningHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSOpeningHours.h; sourceTree = "<group>"; };
+		686AEC2D237C74D100DAEA13 /* GMSAutocompleteSessionToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteSessionToken.h; sourceTree = "<group>"; };
+		686AEC2E237C74D100DAEA13 /* GMSPlusCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlusCode.h; sourceTree = "<group>"; };
+		686AEC2F237C74D100DAEA13 /* GMSPlaceFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceFieldMask.h; sourceTree = "<group>"; };
+		686AEC34237C750600DAEA13 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		B9EE042D1D9D8D2E003E7610 /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE04311D9D8D2E003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9EE045D1D9D8E20003E7610 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		B9EE045F1D9D8E2E003E7610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9EE04611D9D8E39003E7610 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B9EE04631D9D8E47003E7610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,13 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686AEC35237C750600DAEA13 /* GoogleMapsBase.framework in Frameworks */,
 				B9EE04681D9D8E6B003E7610 /* QuartzCore.framework in Frameworks */,
 				B9EE04661D9D8E4D003E7610 /* UIKit.framework in Frameworks */,
 				6836CF5A21837DB700A851FB /* GooglePlaces in Frameworks */,
 				B9EE04641D9D8E47003E7610 /* CoreGraphics.framework in Frameworks */,
 				B9EE04601D9D8E2E003E7610 /* Foundation.framework in Frameworks */,
 				B9EE04621D9D8E39003E7610 /* CoreLocation.framework in Frameworks */,
-				B9EE045E1D9D8E20003E7610 /* GoogleMapsBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +114,10 @@
 		B9EE042F1D9D8D2E003E7610 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
+				686AEC2D237C74D100DAEA13 /* GMSAutocompleteSessionToken.h */,
+				686AEC2C237C74D100DAEA13 /* GMSOpeningHours.h */,
+				686AEC2F237C74D100DAEA13 /* GMSPlaceFieldMask.h */,
+				686AEC2E237C74D100DAEA13 /* GMSPlusCode.h */,
 				6836CF25218375E800A851FB /* GMSAddressComponent.h */,
 				6836CF29218375E800A851FB /* GMSAutocompleteBoundsMode.h */,
 				6836CF1A218375E600A851FB /* GMSAutocompleteFetcher.h */,
@@ -135,12 +147,12 @@
 		B9EE045C1D9D8E20003E7610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				686AEC34237C750600DAEA13 /* GoogleMapsBase.framework */,
 				B9EE04671D9D8E6B003E7610 /* QuartzCore.framework */,
 				B9EE04651D9D8E4D003E7610 /* UIKit.framework */,
 				B9EE04631D9D8E47003E7610 /* CoreGraphics.framework */,
 				B9EE04611D9D8E39003E7610 /* CoreLocation.framework */,
 				B9EE045F1D9D8E2E003E7610 /* Foundation.framework */,
-				B9EE045D1D9D8E20003E7610 /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,10 +179,14 @@
 				6836CF37218375E800A851FB /* GMSPlace.h in Headers */,
 				6836CF30218375E800A851FB /* GMSPlacePhotoMetadataList.h in Headers */,
 				6836CF2E218375E800A851FB /* GMSAutocompleteMatchFragment.h in Headers */,
+				686AEC30237C74D100DAEA13 /* GMSOpeningHours.h in Headers */,
 				6836CF33218375E800A851FB /* GMSAutocompleteResultsViewController.h in Headers */,
 				6836CF35218375E800A851FB /* GMSPlaceTypes.h in Headers */,
 				6836CF3A218375E800A851FB /* GMSPlaceLikelihood.h in Headers */,
+				686AEC31237C74D100DAEA13 /* GMSAutocompleteSessionToken.h in Headers */,
 				6836CF2C218375E800A851FB /* GMSPlaceLikelihoodList.h in Headers */,
+				686AEC32237C74D100DAEA13 /* GMSPlusCode.h in Headers */,
+				686AEC33237C74D100DAEA13 /* GMSPlaceFieldMask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ar,
 				ca,
